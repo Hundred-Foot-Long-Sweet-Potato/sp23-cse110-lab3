@@ -1,0 +1,89 @@
+body {
+    background-color:rgba(255, 246, 167, 0.836);
+    margin: 0 0 0 0;
+    padding: 0.25em 2rem 0.25em 2rem;
+}
+
+footer {
+    color: #05690b;
+    background-color: hsla(169, 81%, 75%, 0.945);
+    margin-top: 2rem;
+    padding-left: 50%;
+    border-style: solid;
+    border-color: black;
+    border-radius: 5%;
+    border-width: 2px;
+}
+
+header {
+    border: 1px solid black;
+    position:static;
+    font-family: 'Castoro Titling', cursive;
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+    text-decoration: underline;
+    position: relative;
+}
+
+form {
+    display:inline-block;
+    width: 70%;
+    max-width: 80%;
+    height: 90%;
+    max-height: 100%;    
+}
+
+a {
+    color: red;
+}
+
+i {
+    font-size: 20px;
+}
+
+p {
+    font-size: 5mm;
+}
+
+h3 {
+    font-size: 14pt;
+}
+
+img {
+    display: block;
+}
+
+button:hover{
+    border-width: 2px;
+    border-color: black;
+}
+
+button:active {
+    border-width: 2px;
+    border-color: red;
+}
+
+#transcript {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    flex-wrap: nowrap;
+    gap:2px;
+}
+
+.agenda {
+    display:grid;
+    grid-template-rows: [row1-start] 50px [row1-end];
+    grid-template-columns: [column1-start] 50px [column1-end];
+    justify-content: center;
+}
+
+@media (max-width: 800px){
+    body {
+        background-color: lightblue;
+    }
+}
