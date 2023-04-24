@@ -5,10 +5,21 @@
         <meta charset="UTF-8">
         <meta name="description" content="Lab 2 for CSE 110">
         <meta name="keywords" content="HTML">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="author" content="Eric Chen">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap" rel="stylesheet">
         <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
+        <style>
+            header{
+                background-color: aquamarine;
+                margin: 0;
+            }
+        </style>
         <header>
             <h1>Divination Brainstorm</h1>
             <i>Brainstorming how to do the Divination app</i>
@@ -20,12 +31,12 @@
             <br>
             <h3>Table of Contents</h3>
             <nav>
-                <a href="#mainContent">Meeting Minutes</a>
+                <a style="text-decoration: none;" href="#mainContent">Meeting Minutes</a>
             </nav>
             <hr>
         </header>
         <main>
-            <section>
+            <section class="agenda">
                 <h2>Agenda</h2>
                 <ol>
                     <li>Ice Breaker</li>
@@ -37,7 +48,7 @@
                 <i>Are we meeting tommorrow???</i>
                 <hr>
             </section>
-            <section>
+            <section id="transcript">
                 <h1 id="mainContent">Meeting Minutes</h1>
                 <p>This portion will be describing what happened in this non-existent meeting</p>
                 <p>Eric: Bro I swear to god it passed <b>testing</b></p>
@@ -102,7 +113,7 @@
             </section>
         </main>
         <footer>
-
+            <p>Something By Me</p>
         </footer>
     </body>
 </html>
