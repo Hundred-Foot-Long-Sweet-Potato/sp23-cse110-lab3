@@ -1,3 +1,7 @@
+* {
+    font-family: 'Castoro Titling', cursive;
+}
+
 body {
     background-color:rgba(255, 246, 167, 0.836);
     margin: 0 0 0 0;
@@ -18,7 +22,6 @@ footer {
 header {
     border: 1px solid black;
     position:static;
-    font-family: 'Castoro Titling', cursive;
 }
 
 h1 {
@@ -40,7 +43,7 @@ a {
     color: red;
 }
 
-i {
+i,li {
     font-size: 20px;
 }
 
@@ -86,4 +89,28 @@ button:active {
     body {
         background-color: lightblue;
     }
+}
+
+form option {
+    font-style:italic;
+}
+
+footer > p {
+    font-weight: bold;
+}
+
+h1 ~ p {
+    font-weight: 100;
+}
+
+li:first-of-type + li {
+    color:darkslategray;
+}
+
+section.agenda {
+    font-size: 20px;
+}
+
+a[href] {
+    font-style: italic;
 }
